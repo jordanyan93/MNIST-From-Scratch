@@ -4,11 +4,12 @@ This project implements a neural network to classify handwritten digits from the
 
 ## Problem Statement
 
-The task is to recognize handwritten digits (0-9) from the **MNIST** dataset, which consists of 60,000 training and 10,000 testing grayscale images of digits, each of size 28x28 pixels.
+The task is to recognize handwritten digits (0-9) from the **MNIST** dataset, which consists of 60,000 training and 10,000 testing grayscale images of digits, each of size 28x28 pixels. This is an old competition from Kaggle.
+View and download the data here: https://www.kaggle.com/competitions/digit-recognizer
 
 ## Key Features
 
-- **Implemented a shallow neural network**: The network consists of multiple layers with ReLU activations for hidden layers and softmax for the output layer. Feel free to adjust the number of layers and units in the main.py file to enhance it's performance
+- **Implemented a shallow neural network**: The network consists of multiple layers with ReLU activations for hidden layers and softmax for the output layer. Feel free to adjust the number of layers and units in the main.py file to enhance its performance.
 - **Backpropagation from scratch**: Manually implemented forward and backward propagation using basic matrix operations in NumPy.
 - **Gradient Descent**: Used to optimize the model weights based on the computed gradients.
 - **Accuracy Measurement**: Evaluated the model on the MNIST test dataset to compute the accuracy and visualize predictions.
