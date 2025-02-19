@@ -25,3 +25,36 @@ To install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+## Usage
+Once you have installed the required dependencies (by running pip install -r requirements.txt), you can run the main script with the following command:
+
+```bash
+python src/main.py
+```
+This will start the program, and you will be prompted with a menu where you can:
+1. Test predictions on specific image indices.
+2. Retrain the model.
+3. Exit the program.
+   
+Make sure that the train.csv and test.csv files are present in the /data directory before running the script.
+
+## Directory Structure
+```
+/data                     # Contains the MNIST dataset files
+    /train.csv            # Training data
+    /test.csv             # Testing data
+/src                      # Source code for the project
+    /main.py              # Main script for running the model
+    /neural_network.py    # Contains the neural network functions
+    /activations.py       # Contains activation function implementations
+    /data_preprocessing.py# Contains data preprocessing functions
+/notebooks/               # Jupyter notebooks for experimentation (if applicable)
+/model.pkl                # Saved model parameters (pickled file)
+/requirements.txt         # Required dependencies
+README.md                 # Project overview and setup instructions
+.gitignore
+```
+
+## Retraining the Model
+If you'd like to retrain the model, you can select the "Retrain the model" option in the menu. This will retrain the model on the MNIST dataset and save the updated model parameters to model.pkl.
