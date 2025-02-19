@@ -8,9 +8,6 @@ __pycache__/
 venv/
 .env/
 
-# Ignore data folder (if you don't want to push large datasets)
-data/
-
 # Ignore model files if they are large or will be re-trained
 model.pkl
 
