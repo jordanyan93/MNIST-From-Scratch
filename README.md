@@ -8,7 +8,7 @@ The task is to recognize handwritten digits (0-9) from the **MNIST** dataset, wh
 
 ## Key Features
 
-- **Implemented a shallow neural network**: The network consists of multiple layers with ReLU activations for hidden layers and softmax for the output layer.
+- **Implemented a shallow neural network**: The network consists of multiple layers with ReLU activations for hidden layers and softmax for the output layer. Feel free to adjust the number of layers and units in the main.py file to enhance it's performance
 - **Backpropagation from scratch**: Manually implemented forward and backward propagation using basic matrix operations in NumPy.
 - **Gradient Descent**: Used to optimize the model weights based on the computed gradients.
 - **Accuracy Measurement**: Evaluated the model on the MNIST test dataset to compute the accuracy and visualize predictions.
