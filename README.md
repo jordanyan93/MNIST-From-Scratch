@@ -5,7 +5,7 @@ This project implements a neural network to classify handwritten digits from the
 ## Problem Statement
 
 The task is to recognize handwritten digits (0-9) from the **MNIST** dataset, which consists of 60,000 training and 10,000 testing grayscale images of digits, each of size 28x28 pixels. This is an old competition from Kaggle.
--View and download the data here: https://www.kaggle.com/competitions/digit-recognizer
+> View and download the data here: https://www.kaggle.com/competitions/digit-recognizer
 
 ## Key Features
 
